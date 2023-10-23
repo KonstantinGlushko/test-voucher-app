@@ -2,6 +2,18 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### Note
+
+Requirenments:
+ - node version in package.json or remove .npmrc file and code below from package.json
+
+```
+"engines": {
+    "node": "18.16.1",
+    "npm": "9.5.1"
+  }
+```
+
 ## Available Scripts
 
 In the project directory, you can run:

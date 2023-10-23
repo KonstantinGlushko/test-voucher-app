@@ -1,0 +1,25 @@
+.container {
+  width: 100%;
+  background-color: #ccc;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+}
+
+.languageButtons {
+  display: flex;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.activeLanguage {
+  font-weight: bold;
+  color: blue;
+}
