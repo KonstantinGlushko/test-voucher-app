@@ -24,7 +24,7 @@ i18n.use(initReactI18next).init({
         "voucher-message-error": "Please enter a message",
         "voucher-submit-button": "Pay & Send",
         "voucher-congrats-text":
-          "Congratulations!\n We sent {{title}} to {{friend}} on email\n with text:\n {{message}}",
+          "Congratulations!\n\n We sent {{title}} to {{friend}} on email\n\n with text:\n\n {{message}}",
         "voucher-congrats-button": "Back to home page",
       },
     },
@@ -49,7 +49,7 @@ i18n.use(initReactI18next).init({
         "voucher-message-error": "Будь-ласка, введіть повідомлення",
         "voucher-submit-button": "Оплатити та відправити",
         "voucher-congrats-text":
-          "Вітаємо!\n Ми відправили {{title}} на електронну пошту {{friend}}\n з текстом:\n {{message}}",
+          "Вітаємо!\n\n Ми відправили {{title}} на електронну пошту {{friend}}\n\n з текстом:\n\n {{message}}",
         "voucher-congrats-button": "Повернутися на головну сторінку",
       },
     },

@@ -14,7 +14,8 @@
 .congratsContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
   height: calc(100vh - 60px);
   margin: auto;
   padding: 20px;
@@ -22,6 +23,13 @@
   background-color: #fff;
   font-size: 16px;
   white-space: pre-line;
+  gap: 20px;
+
+  button {
+    height: 40px;
+    width: 300px;
+    cursor: pointer;
+  }
 }
 
 .voucherCardWrapper {
@@ -50,15 +58,18 @@
 }
 
 .whiteVoucher {
-  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(211,211,211,1) 100%);;
+  background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(211,211,211,1) 100%);
+  color: #000;
 }
 
 .silverVoucher {
   background: linear-gradient(90deg, rgba(192,192,192,1) 0%, rgba(211,211,211,1) 100%);
+  color: #000;
 }
 
 .blackVoucher {
   background: linear-gradient(90deg, rgba(169,169,169,1) 0%, rgba(0,0,0,1) 100%);
+  color: #fff;
 }
 
 .closeIcon {
